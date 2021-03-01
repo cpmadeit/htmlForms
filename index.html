@@ -4,6 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>HTML Form</title>
-    <link href="style.css" rel="stylesheet" 
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+  <body>
+    <form action="https://formspree.io/parsons0006@gmail.com" method="post">
+      <label for="name">Name: </label>
+      <input id="name" type="text" name="name" placeholder="enter full name" />
+      
+      <label for="form-message">Message: </label>
+      <textarea 
+        id="form-message" 
+        type="text" 
+        name="message" 
+        placeholder="briefly explain your question"
+      ></textarea>
+      
+      <label for="email">Email: </label>
+      <input id="email" type="text" name="emailAddress" />
+    </form>
+  </body>
 </html>
